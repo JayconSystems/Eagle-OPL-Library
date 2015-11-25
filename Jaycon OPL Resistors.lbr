@@ -1,0 +1,1769 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="7.4.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="99" name="SpiceOrder" color="7" fill="1" visible="no" active="no"/>
+<layer number="100" name="Muster" color="7" fill="1" visible="no" active="no"/>
+<layer number="101" name="Patch_Top" color="12" fill="4" visible="no" active="yes"/>
+<layer number="102" name="Vscore" color="7" fill="1" visible="no" active="yes"/>
+<layer number="103" name="tMap" color="7" fill="1" visible="no" active="yes"/>
+<layer number="104" name="Name" color="16" fill="1" visible="no" active="yes"/>
+<layer number="105" name="tPlate" color="7" fill="1" visible="no" active="yes"/>
+<layer number="106" name="bPlate" color="7" fill="1" visible="no" active="yes"/>
+<layer number="107" name="Crop" color="7" fill="1" visible="no" active="yes"/>
+<layer number="108" name="tplace-old" color="10" fill="1" visible="no" active="yes"/>
+<layer number="109" name="ref-old" color="11" fill="1" visible="no" active="yes"/>
+<layer number="110" name="fp0" color="7" fill="1" visible="no" active="yes"/>
+<layer number="111" name="LPC17xx" color="7" fill="1" visible="no" active="yes"/>
+<layer number="112" name="tSilk" color="7" fill="1" visible="no" active="yes"/>
+<layer number="113" name="IDFDebug" color="7" fill="1" visible="no" active="yes"/>
+<layer number="116" name="Patch_BOT" color="9" fill="4" visible="no" active="yes"/>
+<layer number="118" name="Rect_Pads" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="121" name="_tsilk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="122" name="_bsilk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="123" name="tTestmark" color="7" fill="1" visible="no" active="yes"/>
+<layer number="124" name="bTestmark" color="7" fill="1" visible="no" active="yes"/>
+<layer number="125" name="_tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="126" name="_bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="127" name="_tValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="128" name="_bValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="129" name="Mask" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="131" name="tAdjust" color="7" fill="1" visible="no" active="yes"/>
+<layer number="132" name="bAdjust" color="7" fill="1" visible="no" active="yes"/>
+<layer number="144" name="Drill_legend" color="7" fill="1" visible="no" active="yes"/>
+<layer number="150" name="Notes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="151" name="HeatSink" color="7" fill="1" visible="no" active="yes"/>
+<layer number="152" name="_bDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="153" name="FabDoc1" color="7" fill="1" visible="no" active="yes"/>
+<layer number="154" name="FabDoc2" color="7" fill="1" visible="no" active="yes"/>
+<layer number="155" name="FabDoc3" color="7" fill="1" visible="no" active="yes"/>
+<layer number="199" name="Contour" color="7" fill="1" visible="no" active="yes"/>
+<layer number="200" name="200bmp" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="201" name="201bmp" color="2" fill="10" visible="no" active="yes"/>
+<layer number="202" name="202bmp" color="3" fill="10" visible="no" active="yes"/>
+<layer number="203" name="203bmp" color="4" fill="10" visible="no" active="yes"/>
+<layer number="204" name="204bmp" color="5" fill="10" visible="no" active="yes"/>
+<layer number="205" name="205bmp" color="6" fill="10" visible="no" active="yes"/>
+<layer number="206" name="206bmp" color="7" fill="10" visible="no" active="yes"/>
+<layer number="207" name="207bmp" color="8" fill="10" visible="no" active="yes"/>
+<layer number="208" name="208bmp" color="9" fill="10" visible="no" active="yes"/>
+<layer number="209" name="209bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="210" name="210bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="211" name="211bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="212" name="212bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="213" name="213bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="214" name="214bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="215" name="215bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="216" name="216bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="217" name="217bmp" color="18" fill="1" visible="no" active="no"/>
+<layer number="218" name="218bmp" color="19" fill="1" visible="no" active="no"/>
+<layer number="219" name="219bmp" color="20" fill="1" visible="no" active="no"/>
+<layer number="220" name="220bmp" color="21" fill="1" visible="no" active="no"/>
+<layer number="221" name="221bmp" color="22" fill="1" visible="no" active="no"/>
+<layer number="222" name="222bmp" color="23" fill="1" visible="no" active="no"/>
+<layer number="223" name="223bmp" color="24" fill="1" visible="no" active="no"/>
+<layer number="224" name="224bmp" color="25" fill="1" visible="no" active="no"/>
+<layer number="225" name="225bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="226" name="226bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="227" name="227bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="228" name="228bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="229" name="229bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="230" name="230bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="231" name="231bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="248" name="Housing" color="7" fill="1" visible="no" active="yes"/>
+<layer number="249" name="Edge" color="7" fill="1" visible="no" active="yes"/>
+<layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
+<layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
+<layer number="254" name="cooling" color="7" fill="1" visible="no" active="yes"/>
+<layer number="255" name="routoute" color="7" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<description>&lt;b&gt;Jaycon Systems Open Parts Library&lt;/b&gt;
+&lt;br&gt;&lt; br&gt;
+Located within this library you will find Resistors. You will find a variety of sizes from small 0402 SMT parts to large through-hole parts.
+&lt;br&gt;&lt;center&gt;&lt;b&gt;Resistance is Futile!&lt;/b&gt;&lt;/center&gt;
+&lt;br&gt;
+Jaycon’s engineers have spent a considerable amount of time creating and checking these parts and footprints. Ensuring they are correct, but it is up to you to double check that they are correct for your project. We hope you enjoy using our libraries to help bring your ideas into a reality.
+&lt;br&gt;&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;&lt;br&gt;
+Using this library for commercial purposes is welcomed and encouraged. We would love to see the various things you create using the parts and foot prints located in our libraries. So shoot us an email with a link or pictures of your creations. But if you need services, such as, PCB Design &amp; Manufacturing, Assembly, or Injection Molding, please call or email us.
+&lt;br&gt;&lt;br&gt;
+&lt;b&gt;Contact Info:&lt;/b&gt;
+&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt;(888) 226-4711
+&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt;sales@jayconsystems.com
+&lt;br&gt;&lt;b&gt;Website:&lt;/b&gt;www.jayconsystems.com</description>
+<packages>
+<package name="RES-0603">
+<wire x1="-1.473" y1="0.983" x2="1.473" y2="0.983" width="0.0508" layer="39"/>
+<wire x1="1.473" y1="0.983" x2="1.473" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="1.473" y1="-0.983" x2="-1.473" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="-1.473" y1="-0.983" x2="-1.473" y2="0.983" width="0.0508" layer="39"/>
+<wire x1="-0.356" y1="0.432" x2="0.356" y2="0.432" width="0.1016" layer="51"/>
+<wire x1="-0.356" y1="-0.419" x2="0.356" y2="-0.419" width="0.1016" layer="51"/>
+<rectangle x1="-0.8382" y1="-0.4699" x2="-0.3381" y2="0.4801" layer="51"/>
+<rectangle x1="0.3302" y1="-0.4699" x2="0.8303" y2="0.4801" layer="51"/>
+<rectangle x1="-0.2286" y1="-0.381" x2="0.2286" y2="0.381" layer="21"/>
+<smd name="1" x="-0.85" y="0" dx="1.1" dy="1" layer="1"/>
+<smd name="2" x="0.85" y="0" dx="1.1" dy="1" layer="1"/>
+<text x="-0.889" y="0.762" size="0.4064" layer="25" font="vector">&gt;NAME</text>
+<text x="-1.016" y="-1.143" size="0.4064" layer="27" font="vector">&gt;VALUE</text>
+</package>
+<package name="RES-0402">
+<wire x1="-0.237" y1="0.184" x2="0.253" y2="0.184" width="0.1524" layer="51"/>
+<wire x1="0.253" y1="-0.184" x2="-0.237" y2="-0.184" width="0.1524" layer="51"/>
+<rectangle x1="-0.546" y1="-0.2551" x2="-0.246" y2="0.2551" layer="51"/>
+<rectangle x1="0.2668" y1="-0.2551" x2="0.5668" y2="0.2551" layer="51"/>
+<smd name="P$1" x="-0.492" y="0" dx="0.5994" dy="0.5004" layer="1"/>
+<smd name="P$2" x="0.508" y="0" dx="0.5994" dy="0.5004" layer="1"/>
+<text x="-0.792" y="0.5" size="0.3048" layer="25">&gt;Name</text>
+<text x="-0.792" y="-0.7" size="0.3048" layer="27">&gt;Value</text>
+</package>
+<package name="RES-0805">
+<wire x1="-0.3" y1="0.6" x2="0.3" y2="0.6" width="0.1524" layer="21"/>
+<wire x1="-0.3" y1="-0.6" x2="0.3" y2="-0.6" width="0.1524" layer="21"/>
+<smd name="1" x="-0.9" y="0" dx="0.8" dy="1.2" layer="1"/>
+<smd name="2" x="0.9" y="0" dx="0.8" dy="1.2" layer="1"/>
+<text x="-0.762" y="0.8255" size="0.4064" layer="25">&gt;NAME</text>
+<text x="-1.016" y="-1.397" size="0.4064" layer="27">&gt;VALUE</text>
+</package>
+<package name="RES-1206">
+<wire x1="-2.473" y1="0.983" x2="2.473" y2="0.983" width="0.0508" layer="39"/>
+<wire x1="2.473" y1="-0.983" x2="-2.473" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="-2.473" y1="-0.983" x2="-2.473" y2="0.983" width="0.0508" layer="39"/>
+<wire x1="2.473" y1="0.983" x2="2.473" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="-0.965" y1="0.787" x2="0.965" y2="0.787" width="0.1016" layer="51"/>
+<wire x1="-0.965" y1="-0.787" x2="0.965" y2="-0.787" width="0.1016" layer="51"/>
+<smd name="1" x="-1.4" y="0" dx="1.6" dy="1.8" layer="1"/>
+<smd name="2" x="1.4" y="0" dx="1.6" dy="1.8" layer="1"/>
+<text x="-1.27" y="1.143" size="0.4064" layer="25">&gt;NAME</text>
+<text x="-1.397" y="-1.524" size="0.4064" layer="27">&gt;VALUE</text>
+<rectangle x1="-1.7018" y1="-0.8509" x2="-0.9517" y2="0.8491" layer="51"/>
+<rectangle x1="0.9517" y1="-0.8491" x2="1.7018" y2="0.8509" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
+</package>
+<package name="PTC-1206">
+<wire x1="-1.5" y1="0.75" x2="1.5" y2="0.75" width="0.127" layer="51"/>
+<wire x1="1.5" y1="0.75" x2="1.5" y2="-0.75" width="0.127" layer="51"/>
+<wire x1="1.5" y1="-0.75" x2="-1.5" y2="-0.75" width="0.127" layer="51"/>
+<wire x1="-1.5" y1="-0.75" x2="-1.5" y2="0.75" width="0.127" layer="51"/>
+<wire x1="0.635" y1="-0.762" x2="-0.635" y2="-0.762" width="0.2032" layer="21"/>
+<wire x1="-0.635" y1="0.762" x2="0.635" y2="0.762" width="0.2032" layer="21"/>
+<wire x1="-1.143" y1="-1.016" x2="0.254" y2="1.016" width="0.127" layer="51"/>
+<wire x1="0.254" y1="1.016" x2="1.143" y2="1.016" width="0.127" layer="51"/>
+<smd name="1" x="-1.4" y="0" dx="1" dy="1.8" layer="1"/>
+<smd name="2" x="1.4" y="0" dx="1" dy="1.8" layer="1"/>
+<text x="-1.524" y="1.27" size="0.4064" layer="25">&gt;Name</text>
+<text x="-1.524" y="-1.651" size="0.4064" layer="27">&gt;Value</text>
+</package>
+<package name="AXIAL-0.4">
+<wire x1="-3.15" y1="-1.2" x2="-3.15" y2="1.2" width="0.2032" layer="21"/>
+<wire x1="-3.15" y1="1.2" x2="3.15" y2="1.2" width="0.2032" layer="21"/>
+<wire x1="3.15" y1="1.2" x2="3.15" y2="-1.2" width="0.2032" layer="21"/>
+<wire x1="3.15" y1="-1.2" x2="-3.15" y2="-1.2" width="0.2032" layer="21"/>
+<pad name="P$1" x="-5.08" y="0" drill="0.9" diameter="1.8796"/>
+<pad name="P$2" x="5.08" y="0" drill="0.9" diameter="1.8796"/>
+<text x="-3.175" y="1.905" size="0.8128" layer="25" font="vector" ratio="15">&gt;Name</text>
+<text x="-2.286" y="-0.381" size="0.8128" layer="21" font="vector" ratio="15">&gt;Value</text>
+</package>
+<package name="TRIM_POT">
+<pad name="1" x="0" y="2.54" drill="1" diameter="1.8796"/>
+<pad name="3" x="0" y="-2.54" drill="1" diameter="1.8796"/>
+<pad name="2" x="5.08" y="0" drill="1" diameter="1.8796"/>
+</package>
+</packages>
+<symbols>
+<symbol name="RESISTOR">
+<wire x1="-2.54" y1="0" x2="-2.159" y2="1.016" width="0.1524" layer="94"/>
+<wire x1="-2.159" y1="1.016" x2="-1.524" y2="-1.016" width="0.1524" layer="94"/>
+<wire x1="-1.524" y1="-1.016" x2="-0.889" y2="1.016" width="0.1524" layer="94"/>
+<wire x1="-0.889" y1="1.016" x2="-0.254" y2="-1.016" width="0.1524" layer="94"/>
+<wire x1="-0.254" y1="-1.016" x2="0.381" y2="1.016" width="0.1524" layer="94"/>
+<wire x1="0.381" y1="1.016" x2="1.016" y2="-1.016" width="0.1524" layer="94"/>
+<wire x1="1.016" y1="-1.016" x2="1.651" y2="1.016" width="0.1524" layer="94"/>
+<wire x1="1.651" y1="1.016" x2="2.286" y2="-1.016" width="0.1524" layer="94"/>
+<wire x1="2.286" y1="-1.016" x2="2.54" y2="0" width="0.1524" layer="94"/>
+<text x="-3.81" y="1.4986" size="1.778" layer="95">&gt;NAME</text>
+<text x="-3.81" y="-3.302" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+</symbol>
+<symbol name="PTC">
+<wire x1="5.08" y1="1.27" x2="5.08" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-1.27" x2="-2.54" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-1.27" x2="-2.54" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="1.27" x2="5.08" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-1.524" y1="-2.54" x2="3.81" y2="2.54" width="0.254" layer="94"/>
+<wire x1="3.81" y1="2.54" x2="5.08" y2="2.54" width="0.254" layer="94"/>
+<text x="-2.54" y="3.048" size="1.778" layer="95">&gt;NAME</text>
+<text x="-3.302" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="1" x="-5.08" y="0" visible="off" length="short"/>
+<pin name="2" x="7.62" y="0" visible="off" length="short" rot="R180"/>
+</symbol>
+<symbol name="POT">
+<wire x1="0" y1="-5.08" x2="0" y2="-4.572" width="0.1524" layer="94"/>
+<wire x1="0" y1="-4.572" x2="-1.016" y2="-3.81" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="-3.81" x2="1.27" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-2.54" x2="-1.016" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="-1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="-1.016" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="1.27" x2="1.27" y2="2.54" width="0.254" layer="94"/>
+<wire x1="1.27" y1="2.54" x2="-1.016" y2="3.81" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="3.81" x2="0" y2="4.572" width="0.254" layer="94"/>
+<wire x1="0" y1="4.572" x2="0" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="0" x2="2.54" y2="1.27" width="0.2032" layer="94"/>
+<wire x1="2.54" y1="-1.27" x2="1.27" y2="0" width="0.2032" layer="94"/>
+<wire x1="2.54" y1="1.27" x2="2.54" y2="-1.27" width="0.2032" layer="94"/>
+<wire x1="2.032" y1="-4.699" x2="2.032" y2="-2.159" width="0.1524" layer="94"/>
+<wire x1="2.032" y1="-2.159" x2="2.667" y2="-3.429" width="0.1524" layer="94"/>
+<wire x1="2.667" y1="-3.429" x2="1.397" y2="-3.429" width="0.1524" layer="94"/>
+<wire x1="1.397" y1="-3.429" x2="2.032" y2="-2.159" width="0.1524" layer="94"/>
+<text x="5.08" y="-10.16" size="1.778" layer="95" rot="R90">&gt;NAME</text>
+<text x="-2.54" y="-10.16" size="1.778" layer="95" rot="R90">&gt;Value</text>
+<pin name="3" x="0" y="-7.62" visible="off" length="short" direction="pas" rot="R90"/>
+<pin name="1" x="0" y="7.62" visible="off" length="short" direction="pas" rot="R270"/>
+<pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+</symbol>
+<symbol name="VARISTOR">
+<text x="-1.27" y="2.7686" size="1.778" layer="95">&gt;NAME</text>
+<text x="-1.27" y="-3.937" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="2" x="7.62" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="1" x="-2.54" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+<wire x1="0" y1="1.27" x2="0" y2="-1.27" width="0.1524" layer="94"/>
+<wire x1="0" y1="-1.27" x2="5.08" y2="-1.27" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="-1.27" x2="5.08" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="1.27" x2="0" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="0" y1="1.905" x2="1.27" y2="1.905" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="1.905" x2="3.81" y2="-1.905" width="0.1524" layer="94"/>
+<wire x1="3.81" y1="-1.905" x2="5.08" y2="-1.905" width="0.1524" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="RES-0603" prefix="R" uservalue="yes">
+<description>SMD 0603 Resistor Library</description>
+<gates>
+<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_EMPTY-FIELDS" package="RES-0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="JAYCON" value=""/>
+<attribute name="ROHM-MFG" value=""/>
+<attribute name="SAMSUNG-MFG" value=""/>
+<attribute name="SIZE" value="0603"/>
+<attribute name="TOLERANCE" value=""/>
+<attribute name="VALUE" value=""/>
+<attribute name="VISHAY-MFG" value=""/>
+<attribute name="WATT" value="" constant="no"/>
+<attribute name="WATTAGE" value="0.1W"/>
+<attribute name="YAGEO-MFG" value=""/>
+<attribute name="YAGEO-MFG#" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-270K-5%" package="RES-0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="JAYCON" value="RS-0012"/>
+<attribute name="ROHM-MFG" value=""/>
+<attribute name="SAMSUNG-MFG" value=""/>
+<attribute name="SIZE" value="0603"/>
+<attribute name="TOLERANCE" value="5%"/>
+<attribute name="VALUE" value="270K"/>
+<attribute name="VISHAY-MFG" value=""/>
+<attribute name="WATTAGE" value="0.1W"/>
+<attribute name="YAGEO-MFG" value="RC0603JR-07270KL"/>
+</technology>
+</technologies>
+</device>
+<device name="-100K-5%" package="RES-0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="JAYCON" value="RS-0013"/>
+<attribute name="ROHM-MFG" value=""/>
+<attribute name="SAMSUNG-MFG" value=""/>
+<attribute name="SIZE" value="0603"/>
+<attribute name="TOLERANCE" value="5%"/>
+<attribute name="VALUE" value="100K"/>
+<attribute name="VISHAY-MFG" value="RCG0603100KJNEA"/>
+<attribute name="WATTAGE" value="0.1W"/>
+<attribute name="YAGEO-MFG" value=""/>
+</technology>
+</technologies>
+</device>
+<device name="-33K-1%" package="RES-0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="JAYCON" value="RS-0014"/>
+<attribute name="ROHM-MFG" value=""/>
+<attribute name="SAMSUNG-MFG" value=""/>
+<attribute name="SIZE" value="0603"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="33K"/>
+<attribute name="VISHAY-MFG" value=""/>
+<attribute name="WATTAGE" value="0.1W"/>
+<attribute name="YAGEO-MFG" value="RC0603FR-0733KL"/>
+</technology>
+</technologies>
+</device>
+<device name="-22K-5%" package="RES-0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="JAYCON" value="RS-0015"/>
+<attribute name="ROHM-MFG" value=""/>
+<attribute name="SAMSUNG-MFG" value=""/>
+<attribute name="SIZE" value="0603"/>
+<attribute name="TOLERANCE" value="5%"/>
+<attribute name="VALUE" value="22K"/>
+<attribute name="VISHAY-MFG" value=""/>
+<attribute name="WATTAGE" value="0.1W"/>
+<attribute name="YAGEO-MFG" value="RC0603JR-0722KL"/>
+</technology>
+</technologies>
+</device>
+<device name="-4.7K-5%" package="RES-0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="JAYCON" value="RS-0016"/>
+<attribute name="ROHM-MFG" value=""/>
+<attribute name="SAMSUNG-MFG" value=""/>
+<attribute name="SIZE" value="0603"/>
+<attribute name="TOLERANCE" value="5%"/>
+<attribute name="VALUE" value="4.7K"/>
+<attribute name="VISHAY-MFG" value=""/>
+<attribute name="WATTAGE" value="0.1W"/>
+<attribute name="YAGEO-MFG" value="RC0603JR-074K7P"/>
+</technology>
+</technologies>
+</device>
+<device name="-2K-1%" package="RES-0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="JAYCON" value="RS-0017"/>
+<attribute name="ROHM-MFG" value=""/>
+<attribute name="SAMSUNG-MFG" value=""/>
+<attribute name="SIZE" value="0603"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="2K"/>
+<attribute name="VISHAY-MFG" value=""/>
+<attribute name="WATTAGE" value="0.1W"/>
+<attribute name="YAGEO-MFG" value="RC0603FR-072KL"/>
+</technology>
+</technologies>
+</device>
+<device name="-1.5K-5%" package="RES-0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="JAYCON" value="RS-0018"/>
+<attribute name="ROHM-MFG" value="MCR03ERTJ152" constant="no"/>
+<attribute name="SIZE" value="0603"/>
+<attribute name="TOLERANCE" value="5%"/>
+<attribute name="VALUE" value="1.5K"/>
+<attribute name="VISHAY-MFG" value="" constant="no"/>
+<attribute name="WATTAGE" value="0.1W"/>
+<attribute name="YAGEO-MFG" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-470-5%" package="RES-0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="JAYCON" value="RS-0019"/>
+<attribute name="ROHM-MFG" value=""/>
+<attribute name="SIZE" value="0603"/>
+<attribute name="TOLERANCE" value="5%"/>
+<attribute name="VALUE" value="470"/>
+<attribute name="VISHAY-MFG" value=""/>
+<attribute name="WATTAGE" value="0.1W"/>
+<attribute name="YAGEO-MFG" value="RC0603JR-07470RL"/>
+</technology>
+</technologies>
+</device>
+<device name="-390-1%" package="RES-0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="JAYCON" value="RS-0020"/>
+<attribute name="ROHM-MFG" value=""/>
+<attribute name="SIZE" value="0603"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="390"/>
+<attribute name="VISHAY-MFG" value=""/>
+<attribute name="WATTAGE" value="0.1W"/>
+<attribute name="YAGEO-MFG" value="RC0603FR-07390RL"/>
+</technology>
+</technologies>
+</device>
+<device name="-330-5%" package="RES-0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="JAYCON" value="RS-0021"/>
+<attribute name="ROHM-MFG" value=""/>
+<attribute name="SIZE" value="0603"/>
+<attribute name="TOLERANCE" value="5%"/>
+<attribute name="VALUE" value="330"/>
+<attribute name="VISHAY-MFG" value="CRCW0603330RJNEA"/>
+<attribute name="WATTAGE" value="0.1W"/>
+<attribute name="YAGEO-MFG" value=""/>
+</technology>
+</technologies>
+</device>
+<device name="-240-5%" package="RES-0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="JAYCON" value="RS-0022"/>
+<attribute name="ROHM-MFG" value=""/>
+<attribute name="SIZE" value="0603"/>
+<attribute name="TOLERANCE" value="5%"/>
+<attribute name="VALUE" value="240"/>
+<attribute name="VISHAY-MFG" value=""/>
+<attribute name="WATTAGE" value="0.1W"/>
+<attribute name="YAGEO-MFG" value="RC0603JR-07240RL"/>
+</technology>
+</technologies>
+</device>
+<device name="-120-5%" package="RES-0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="JAYCON" value="RS-0023"/>
+<attribute name="ROHM-MFG" value=""/>
+<attribute name="SAMSUNG" value="RC1608J121CS"/>
+<attribute name="SIZE" value="0603"/>
+<attribute name="TOLERANCE" value="5%"/>
+<attribute name="VALUE" value="120"/>
+<attribute name="VISHAY-MFG" value=""/>
+<attribute name="WATTAGE" value="0.1W"/>
+<attribute name="YAGEO-MFG" value=""/>
+</technology>
+</technologies>
+</device>
+<device name="-100-5%" package="RES-0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="JAYCON" value="RS-0024"/>
+<attribute name="ROHM-MFG" value=""/>
+<attribute name="SAMSUNG-MFG" value="RC1608J101CS"/>
+<attribute name="SIZE" value="0603"/>
+<attribute name="TOLERANCE" value="5%"/>
+<attribute name="VALUE" value="100"/>
+<attribute name="VISHAY-MFG" value=""/>
+<attribute name="WATTAGE" value="0.1W"/>
+<attribute name="YAGEO-MFG" value=""/>
+</technology>
+</technologies>
+</device>
+<device name="-27-5%" package="RES-0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="JAYCON" value="RS-0025"/>
+<attribute name="ROHM-MFG" value=""/>
+<attribute name="SAMSUNG-MFG" value="RC1608J270CS"/>
+<attribute name="SIZE" value="0603"/>
+<attribute name="TOLERANCE" value="5%"/>
+<attribute name="VALUE" value="27"/>
+<attribute name="VISHAY-MFG" value=""/>
+<attribute name="WATTAGE" value="0.1W"/>
+<attribute name="YAGEO-MFG" value=""/>
+</technology>
+</technologies>
+</device>
+<device name="-1K-5%" package="RES-0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="JAYCON" value="RS-0026"/>
+<attribute name="ROHM-MFG" value=""/>
+<attribute name="SAMSUNG-MFG" value="RC1608J102CS"/>
+<attribute name="SIZE" value="0603"/>
+<attribute name="TOLERANCE" value="5%"/>
+<attribute name="VALUE" value="1K"/>
+<attribute name="VISHAY-MFG" value="CRCW06031K00JNEA"/>
+<attribute name="WATTAGE" value="0.1W"/>
+<attribute name="YAGEO-MFG" value="RC0603JR-071KP"/>
+</technology>
+</technologies>
+</device>
+<device name="-10K-5%" package="RES-0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="JAYCON" value="RS-0027"/>
+<attribute name="ROHM-MFG" value="MCR03EZPJ103"/>
+<attribute name="SAMSUNG-MFG" value="RC1608J103CS"/>
+<attribute name="SIZE" value="0603"/>
+<attribute name="TOLERANCE" value="5%"/>
+<attribute name="VALUE" value="10K"/>
+<attribute name="VISHAY-MFG" value="CRCW060310K0JNEA"/>
+<attribute name="WATTAGE" value="0.1W"/>
+<attribute name="YAGEO-MFG" value="RC0603JR-0710KP"/>
+</technology>
+</technologies>
+</device>
+<device name="-47K-5%" package="RES-0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="JAYCON" value="RS-0028"/>
+<attribute name="ROHM-MFG" value=""/>
+<attribute name="SAMSUNG-MFG" value=""/>
+<attribute name="SIZE" value="0603"/>
+<attribute name="TOLERANCE" value="5%"/>
+<attribute name="VALUE" value="47K"/>
+<attribute name="VISHAY-MFG" value="CRCW060347K0JNEA"/>
+<attribute name="WATTAGE" value="0.1W"/>
+<attribute name="YAGEO-MFG" value=""/>
+</technology>
+</technologies>
+</device>
+<device name="-300K-5%" package="RES-0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="JAYCON" value="RS-0029"/>
+<attribute name="ROHM-MFG" value=""/>
+<attribute name="SAMSUNG-MFG" value=""/>
+<attribute name="SIZE" value="0603"/>
+<attribute name="TOLERANCE" value="5%"/>
+<attribute name="VALUE" value="300K"/>
+<attribute name="VISHAY-MFG" value="CRCW0603300KJNEA"/>
+<attribute name="WATTAGE" value="0.1W"/>
+<attribute name="YAGEO-MFG" value=""/>
+</technology>
+</technologies>
+</device>
+<device name="-56-1%" package="RES-0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="JAYCON" value="RS-0033"/>
+<attribute name="ROHM-MFG" value=""/>
+<attribute name="SAMSUNG-MFG" value=""/>
+<attribute name="SIZE" value="0603"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="56"/>
+<attribute name="VISHAY-MFG" value=""/>
+<attribute name="WATTAGE" value="0.1W"/>
+<attribute name="YAGEO-MFG" value="RC0603FR-0756RL"/>
+</technology>
+</technologies>
+</device>
+<device name="-2.2K-5%" package="RES-0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="JAYCON" value="RS-0035"/>
+<attribute name="ROHM-MFG" value=""/>
+<attribute name="SAMSUNG-MFG" value=""/>
+<attribute name="SIZE" value="0603"/>
+<attribute name="TOLERANCE" value="5%"/>
+<attribute name="VALUE" value="2.2K"/>
+<attribute name="VISHAY-MFG" value=""/>
+<attribute name="WATTAGE" value="0.1W"/>
+<attribute name="YAGEO-MFG" value="RC0603JR-072K2L"/>
+</technology>
+</technologies>
+</device>
+<device name="-1M-5%" package="RES-0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="JAYCON" value="RS-0036"/>
+<attribute name="ROHM-MFG" value="MCR03ERTJ105"/>
+<attribute name="SAMSUNG-MFG" value="RC1608J105CS"/>
+<attribute name="SIZE" value="0603"/>
+<attribute name="TOLERANCE" value="5%"/>
+<attribute name="VALUE" value="1M"/>
+<attribute name="VISHAY-MFG" value="CRCW06031M00JNEA"/>
+<attribute name="WATTAGE" value="0.1W"/>
+<attribute name="YAGEO-MFG" value=""/>
+</technology>
+</technologies>
+</device>
+<device name="-220-5%" package="RES-0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="JAYCON" value="RS-0037"/>
+<attribute name="ROHM-MFG" value="MCR03EZPJ221"/>
+<attribute name="SAMSUNG-MFG" value=""/>
+<attribute name="SIZE" value="0603"/>
+<attribute name="TOLERANCE" value="5%"/>
+<attribute name="VALUE" value="220"/>
+<attribute name="VISHAY-MFG" value="CRCW0603220RJNEA"/>
+<attribute name="WATTAGE" value="0.1W"/>
+<attribute name="YAGEO-MFG" value="RC0603JR-07220RP"/>
+</technology>
+</technologies>
+</device>
+<device name="-49.9K-1%" package="RES-0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="JAYCON" value="RS-0038"/>
+<attribute name="ROHM-MFG" value="MCR03ERTF4992"/>
+<attribute name="SAMSUNG-MFG" value="RC1608F4992CS"/>
+<attribute name="SIZE" value="0603"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="49.9K"/>
+<attribute name="VISHAY-MFG" value="CRCW060349K9FKEA"/>
+<attribute name="WATTAGE" value="0.1W"/>
+<attribute name="YAGEO-MFG" value=""/>
+</technology>
+</technologies>
+</device>
+<device name="-715-1%" package="RES-0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="JAYCON" value="RS-0039"/>
+<attribute name="ROHM-MFG" value="MCR03ERTF7150"/>
+<attribute name="SAMSUNG-MFG" value="RC1608F7150CS"/>
+<attribute name="SIZE" value="0603"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="715"/>
+<attribute name="VISHAY-MFG" value="CRCW0603715RFKEA"/>
+<attribute name="WATTAGE" value="0.1W"/>
+<attribute name="YAGEO-MFG" value=""/>
+</technology>
+</technologies>
+</device>
+<device name="-487K-1%" package="RES-0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="JAYCON" value="RS-0041"/>
+<attribute name="PANASONIC-MFG" value="ERJ-3EKF4873V" constant="no"/>
+<attribute name="ROHM-MFG" value=""/>
+<attribute name="SAMSUNG-MFG" value=""/>
+<attribute name="SIZE" value="0603"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="487K"/>
+<attribute name="VISHAY-MFG" value=""/>
+<attribute name="WATTAGE" value="0.1W"/>
+<attribute name="YAGEO-MFG" value=""/>
+</technology>
+</technologies>
+</device>
+<device name="-1.4K-1%" package="RES-0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="JAYCON" value="RS-0042"/>
+<attribute name="PANASONIC-MFG" value=""/>
+<attribute name="ROHM-MFG" value=""/>
+<attribute name="SAMSUNG-MFG" value=""/>
+<attribute name="SIZE" value="0603"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="1.4K"/>
+<attribute name="VISHAY-MFG" value=""/>
+<attribute name="WATTAGE" value="0.1W"/>
+<attribute name="YAGEO-MFG" value="RC0603FR-071K4L"/>
+</technology>
+</technologies>
+</device>
+<device name="-0-OHM" package="RES-0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="JAYCON" value="RS-0043"/>
+<attribute name="PANASONIC-MFG" value=""/>
+<attribute name="ROHM-MFG" value=""/>
+<attribute name="SAMSUNG-MFG" value=""/>
+<attribute name="SIZE" value="0603"/>
+<attribute name="TOLERANCE" value=""/>
+<attribute name="VALUE" value="0"/>
+<attribute name="VISHAY-MFG" value=""/>
+<attribute name="WATTAGE" value="0.1W"/>
+<attribute name="YAGEO-MFG" value="RC0603JR-070RL"/>
+</technology>
+</technologies>
+</device>
+<device name="-22-5%" package="RES-0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="JAYCON" value="RS-0044"/>
+<attribute name="PANASONIC-MFG" value=""/>
+<attribute name="ROHM-MFG" value=""/>
+<attribute name="SAMSUNG-MFG" value=""/>
+<attribute name="SIZE" value="0603"/>
+<attribute name="TOLERANCE" value="5%"/>
+<attribute name="VALUE" value="22"/>
+<attribute name="VISHAY-MFG" value=""/>
+<attribute name="WATTAGE" value="0.1W"/>
+<attribute name="YAGEO-MFG" value="RC0603JR-0722RL"/>
+</technology>
+</technologies>
+</device>
+<device name="-0.2-1%" package="RES-0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="JAYCON" value="RS-0046"/>
+<attribute name="PANASONIC-MFG" value=""/>
+<attribute name="ROHM-MFG" value="UCR03EVPFLR200"/>
+<attribute name="SAMSUNG-MFG" value=""/>
+<attribute name="SIZE" value="0603"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="0.2"/>
+<attribute name="VISHAY-MFG" value=""/>
+<attribute name="WATTAGE" value="0.25W"/>
+<attribute name="YAGEO-MFG" value=""/>
+</technology>
+</technologies>
+</device>
+<device name="-8.2K-1%" package="RES-0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="JAYCON" value="RS-0047"/>
+<attribute name="PANASONIC-MFG" value=""/>
+<attribute name="ROHM-MFG" value=""/>
+<attribute name="SAMSUNG-MFG" value=""/>
+<attribute name="SIZE" value="0603"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="8.2K"/>
+<attribute name="VISHAY-MFG" value=""/>
+<attribute name="WATTAGE" value="0.1W"/>
+<attribute name="YAGEO-MFG" value="RC0603FR-078K2L"/>
+</technology>
+</technologies>
+</device>
+<device name="-30K-1%" package="RES-0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="JAYCON" value="RS-0048"/>
+<attribute name="PANASONIC-MFG" value=""/>
+<attribute name="ROHM-MFG" value=""/>
+<attribute name="SAMSUNG-MFG" value=""/>
+<attribute name="SIZE" value="0603"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="30K"/>
+<attribute name="VISHAY-MFG" value=""/>
+<attribute name="WATTAGE" value="0.1W"/>
+<attribute name="YAGEO-MFG" value="RC0603FR-0730KL"/>
+</technology>
+</technologies>
+</device>
+<device name="-34.8K-1%" package="RES-0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="JAYCON" value="RS-0049"/>
+<attribute name="PANASONIC-MFG" value=""/>
+<attribute name="ROHM-MFG" value=""/>
+<attribute name="SAMSUNG-MFG" value=""/>
+<attribute name="SIZE" value="0603"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="34.8K"/>
+<attribute name="VISHAY-MFG" value=""/>
+<attribute name="WATTAGE" value="0.1W"/>
+<attribute name="YAGEO-MFG" value="RC0603FR-0734K8"/>
+</technology>
+</technologies>
+</device>
+<device name="-121K-1%" package="RES-0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="JAYCON" value="RS-0050"/>
+<attribute name="PANASONIC-MFG" value=""/>
+<attribute name="ROHM-MFG" value=""/>
+<attribute name="SAMSUNG-MFG" value=""/>
+<attribute name="SIZE" value="0603"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="121K"/>
+<attribute name="VISHAY-MFG" value=""/>
+<attribute name="WATTAGE" value="0.1W"/>
+<attribute name="YAGEO-MFG" value="RC0603FR-07121KL"/>
+</technology>
+</technologies>
+</device>
+<device name="-120K-1%" package="RES-0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="JAYCON" value="RS-0051"/>
+<attribute name="PANASONIC-MFG" value=""/>
+<attribute name="ROHM-MFG" value=""/>
+<attribute name="SAMSUNG-MFG" value=""/>
+<attribute name="SIZE" value="0603"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="120K"/>
+<attribute name="VISHAY-MFG" value=""/>
+<attribute name="WATTAGE" value="0.1W"/>
+<attribute name="YAGEO-MFG" value="RC0603FR-07120KL"/>
+</technology>
+</technologies>
+</device>
+<device name="-150-5%" package="RES-0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="JAYCON" value="RS-0052"/>
+<attribute name="PANASONIC-MFG" value=""/>
+<attribute name="ROHM-MFG" value=""/>
+<attribute name="SAMSUNG-MFG" value=""/>
+<attribute name="SIZE" value="0603"/>
+<attribute name="TOLERANCE" value="5%"/>
+<attribute name="VALUE" value="150"/>
+<attribute name="VISHAY-MFG" value=""/>
+<attribute name="WATTAGE" value="0.1W"/>
+<attribute name="YAGEO-MFG" value="RC0603JR-07150RL"/>
+</technology>
+</technologies>
+</device>
+<device name="-71.5K-1%" package="RES-0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="JAYCON" value="RS-0053"/>
+<attribute name="PANASONIC-MFG" value=""/>
+<attribute name="ROHM-MFG" value=""/>
+<attribute name="SAMSUNG-MFG" value=""/>
+<attribute name="SIZE" value="0603"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="71.5K"/>
+<attribute name="VISHAY-MFG" value=""/>
+<attribute name="WATTAGE" value="0.1W"/>
+<attribute name="YAGEO-MFG" value="RC0603FR-0771K5L"/>
+</technology>
+</technologies>
+</device>
+<device name="-6.8K-1%" package="RES-0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="JAYCON" value="RS-0054"/>
+<attribute name="PANASONIC-MFG" value=""/>
+<attribute name="ROHM-MFG" value=""/>
+<attribute name="SAMSUNG-MFG" value=""/>
+<attribute name="SIZE" value="0603"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="6.8K"/>
+<attribute name="VISHAY-MFG" value=""/>
+<attribute name="WATTAGE" value="0.1W"/>
+<attribute name="YAGEO-MFG" value="RC0603FR-076K8L"/>
+</technology>
+</technologies>
+</device>
+<device name="-27K-1%" package="RES-0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="JAYCON" value="RS-0055"/>
+<attribute name="PANASONIC-MFG" value=""/>
+<attribute name="ROHM-MFG" value=""/>
+<attribute name="SAMSUNG-MFG" value=""/>
+<attribute name="SIZE" value="0603"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="27K"/>
+<attribute name="VISHAY-MFG" value=""/>
+<attribute name="WATTAGE" value="0.1W"/>
+<attribute name="YAGEO-MFG" value="RC0603FR-0727KL"/>
+</technology>
+</technologies>
+</device>
+<device name="-11.5K-1%" package="RES-0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="JAYCON" value="RS-0056"/>
+<attribute name="PANASONIC-MFG" value=""/>
+<attribute name="ROHM-MFG" value=""/>
+<attribute name="SAMSUNG-MFG" value=""/>
+<attribute name="SIZE" value="0603"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="11.5K"/>
+<attribute name="VISHAY-MFG" value=""/>
+<attribute name="WATTAGE" value="0.1W"/>
+<attribute name="YAGEO-MFG" value="RC0603FR-0711K5L"/>
+</technology>
+</technologies>
+</device>
+<device name="-86.6K-1%" package="RES-0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="JAYCON" value="JS-0056"/>
+<attribute name="PANASONIC-MFG" value="ERJ-3EKF8662V"/>
+<attribute name="ROHM-MFG" value=""/>
+<attribute name="SAMSUNG-MFG" value=""/>
+<attribute name="SIZE" value="0603"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="86.6K"/>
+<attribute name="VISHAY-MFG" value=""/>
+<attribute name="WATTAGE" value="0.1W"/>
+<attribute name="YAGEO-MFG" value=""/>
+</technology>
+</technologies>
+</device>
+<device name="-0.02-1%" package="RES-0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="JAYCON" value="RS-0059"/>
+<attribute name="PANASONIC-MFG" value=""/>
+<attribute name="ROHM-MFG" value=""/>
+<attribute name="SAMSUNG-MFG" value="RU1608FR020CS"/>
+<attribute name="SIZE" value="0603"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="0.02"/>
+<attribute name="VISHAY-MFG" value=""/>
+<attribute name="WATTAGE" value="0.1W"/>
+<attribute name="YAGEO-MFG" value=""/>
+</technology>
+</technologies>
+</device>
+<device name="-33-5%" package="RES-0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="JAYCON" value="RS-0060"/>
+<attribute name="PANASONIC-MFG" value=""/>
+<attribute name="ROHM-MFG" value=""/>
+<attribute name="SAMSUNG-MFG" value="RC1608J330CS"/>
+<attribute name="SIZE" value="0603"/>
+<attribute name="TOLERANCE" value="5%"/>
+<attribute name="VALUE" value="33"/>
+<attribute name="VISHAY-MFG" value=""/>
+<attribute name="WATTAGE" value="0.1W"/>
+<attribute name="YAGEO-MFG" value=""/>
+</technology>
+</technologies>
+</device>
+<device name="-750-0.5%" package="RES-0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="JAYCON" value="RS-0069"/>
+<attribute name="PANASONIC-MFG" value="ERA-3AED751V"/>
+<attribute name="ROHM-MFG" value=""/>
+<attribute name="SAMSUNG-MFG" value=""/>
+<attribute name="SIZE" value="0603"/>
+<attribute name="TOLERANCE" value="0.5%"/>
+<attribute name="VALUE" value="750"/>
+<attribute name="VISHAY-MFG" value=""/>
+<attribute name="WATTAGE" value="0.1W"/>
+<attribute name="YAGEO-MFG" value=""/>
+</technology>
+</technologies>
+</device>
+<device name="-470K-5%" package="RES-0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="JAYCON" value="RS-0072"/>
+<attribute name="PANASONIC-MFG" value=""/>
+<attribute name="ROHM-MFG" value=""/>
+<attribute name="SAMSUNG-MFG" value=""/>
+<attribute name="SIZE" value="0603"/>
+<attribute name="TOLERANCE" value="5%"/>
+<attribute name="VALUE" value="470K"/>
+<attribute name="VISHAY-MFG" value=""/>
+<attribute name="WATTAGE" value="0.1W"/>
+<attribute name="YAGEO-MFG" value="RC0603JR-07470KL"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RES-0402" prefix="R" uservalue="yes">
+<description>SMD 0402 Resistor Library</description>
+<gates>
+<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-EMPTY-VALUES" package="RES-0402">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="JAYCON" value=""/>
+<attribute name="PANASONIC-MFG" value=""/>
+<attribute name="ROHM-MFG" value=""/>
+<attribute name="SAMSUNG-MFG" value=""/>
+<attribute name="SIZE" value="0402"/>
+<attribute name="TOLERANCE" value=""/>
+<attribute name="VALUE" value=""/>
+<attribute name="VISHAY-MFG" value=""/>
+<attribute name="WATTAGE" value="0.1W"/>
+<attribute name="YAGEO-MFG" value=""/>
+</technology>
+</technologies>
+</device>
+<device name="-200-5%" package="RES-0402">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="JAYCON" value="RS-0030"/>
+<attribute name="PANASONIC-MFG" value="ERJ-2GEJ201X"/>
+<attribute name="ROHM-MFG" value=""/>
+<attribute name="SAMSUNG-MFG" value=""/>
+<attribute name="SIZE" value="0402"/>
+<attribute name="TOLERANCE" value="5%"/>
+<attribute name="VALUE" value="220"/>
+<attribute name="VISHAY-MFG" value=""/>
+<attribute name="WATTAGE" value="0.1W"/>
+<attribute name="YAGEO-MFG" value=""/>
+</technology>
+</technologies>
+</device>
+<device name="-56-1%" package="RES-0402">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="JAYCON" value="RS-0032"/>
+<attribute name="PANASONIC-MFG" value=""/>
+<attribute name="ROHM-MFG" value=""/>
+<attribute name="SAMSUNG-MFG" value=""/>
+<attribute name="SIZE" value="0402"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="56"/>
+<attribute name="VISHAY-MFG" value=""/>
+<attribute name="WATTAGE" value="0.16W"/>
+<attribute name="YAGEO-MFG" value="RC0402FR-0756RL"/>
+</technology>
+</technologies>
+</device>
+<device name="-2.2K-5%" package="RES-0402">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="JAYCON" value="RS-0034"/>
+<attribute name="PANASONIC-MFG" value=""/>
+<attribute name="ROHM-MFG" value=""/>
+<attribute name="SAMSUNG-MFG" value=""/>
+<attribute name="SIZE" value="0402"/>
+<attribute name="TOLERANCE" value="5%"/>
+<attribute name="VALUE" value="2.2K"/>
+<attribute name="VISHAY-MFG" value=""/>
+<attribute name="WATTAGE" value="0.16W"/>
+<attribute name="YAGEO-MFG" value="RC0402JR-072K2L"/>
+</technology>
+</technologies>
+</device>
+<device name="-22K-1%" package="RES-0402">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="JAYCON" value="RS-0064"/>
+<attribute name="PANASONIC-MFG" value=""/>
+<attribute name="ROHM-MFG" value=""/>
+<attribute name="SAMSUNG-MFG" value=""/>
+<attribute name="SIZE" value="0402"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="22K"/>
+<attribute name="VISHAY-MFG" value="CRCW040222K0FKED"/>
+<attribute name="WATTAGE" value="0.16W"/>
+<attribute name="YAGEO-MFG" value=""/>
+</technology>
+</technologies>
+</device>
+<device name="-1K-1%" package="RES-0402">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="JAYCON" value="RS-0065"/>
+<attribute name="PANASONIC-MFG" value=""/>
+<attribute name="ROHM-MFG" value=""/>
+<attribute name="SAMSUNG-MFG" value=""/>
+<attribute name="SIZE" value="0402"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="1K"/>
+<attribute name="VISHAY-MFG" value="CRCW04021K00FKED"/>
+<attribute name="WATTAGE" value="0.16W"/>
+<attribute name="YAGEO-MFG" value=""/>
+</technology>
+</technologies>
+</device>
+<device name="-330-1%" package="RES-0402">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="JAYCON" value="RS-0066"/>
+<attribute name="PANASONIC-MFG" value=""/>
+<attribute name="ROHM-MFG" value=""/>
+<attribute name="SAMSUNG-MFG" value=""/>
+<attribute name="SIZE" value="0402"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="330"/>
+<attribute name="VISHAY-MFG" value="CRCW0402330RFKED"/>
+<attribute name="WATTAGE" value="0.16W"/>
+<attribute name="YAGEO-MFG" value=""/>
+</technology>
+</technologies>
+</device>
+<device name="-THERMISTOR-10K-5%" package="RES-0402">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="JAYCON" value="RD-0068"/>
+<attribute name="PANASONIC-MFG" value="ERT-J0EM103J"/>
+<attribute name="ROHM-MFG" value=""/>
+<attribute name="SAMSUNG-MFG" value=""/>
+<attribute name="SIZE" value="0402"/>
+<attribute name="TOLERANCE" value="5%"/>
+<attribute name="VALUE" value="10K"/>
+<attribute name="VISHAY-MFG" value=""/>
+<attribute name="WATTAGE" value="0.16W"/>
+<attribute name="YAGEO-MFG" value=""/>
+</technology>
+</technologies>
+</device>
+<device name="-22K-5%" package="RES-0402">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="JAYCON" value="RS-0071"/>
+<attribute name="PANASONIC-MFG" value=""/>
+<attribute name="ROHM-MFG" value=""/>
+<attribute name="SAMSUNG-MFG" value="RC1005J223CS"/>
+<attribute name="SIZE" value="0402"/>
+<attribute name="TOLERANCE" value="5%"/>
+<attribute name="VALUE" value="22K"/>
+<attribute name="VISHAY-MFG" value=""/>
+<attribute name="WATTAGE" value="0.16W"/>
+<attribute name="YAGEO-MFG" value=""/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RES-0805" uservalue="yes">
+<description>SMD 0805 Resistor Library</description>
+<gates>
+<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-EMPTY-VALUES" package="RES-0805">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="JAYCON" value=""/>
+<attribute name="PANASONIC-MFG" value=""/>
+<attribute name="ROHM-MFG" value=""/>
+<attribute name="SAMSUNG-MFG" value=""/>
+<attribute name="SIZE" value="0805"/>
+<attribute name="TOLERANCE" value=""/>
+<attribute name="VALUE" value=""/>
+<attribute name="VISHAY-MFG" value=""/>
+<attribute name="WATTAGE" value="0.125W"/>
+<attribute name="YAGEO-MFG" value=""/>
+</technology>
+</technologies>
+</device>
+<device name="-53.6K-1%" package="RES-0805">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="JAYCON" value="RS-0045"/>
+<attribute name="PANASONIC-MFG" value=""/>
+<attribute name="ROHM-MFG" value=""/>
+<attribute name="SAMSUNG-MFG" value=""/>
+<attribute name="SIZE" value="0805"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="53.6K"/>
+<attribute name="VISHAY-MFG" value=""/>
+<attribute name="WATTAGE" value="0.125W"/>
+<attribute name="YAGEO-MFG" value="RC0805FR-0753K6L"/>
+</technology>
+</technologies>
+</device>
+<device name="-10K-5%" package="RES-0805">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="JAYCON" value="RS-0062"/>
+<attribute name="PANASONIC-MFG" value=""/>
+<attribute name="ROHM-MFG" value=""/>
+<attribute name="SAMSUNG-MFG" value=""/>
+<attribute name="SIZE" value="0805"/>
+<attribute name="TOLERANCE" value="5%"/>
+<attribute name="VALUE" value="10K"/>
+<attribute name="VISHAY-MFG" value=""/>
+<attribute name="WATTAGE" value="0.125W"/>
+<attribute name="YAGEO-MFG" value="RC0805JR-0710KL"/>
+</technology>
+</technologies>
+</device>
+<device name="-330-5%" package="RES-0805">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="JAYCON" value="RS-0063"/>
+<attribute name="PANASONIC-MFG" value=""/>
+<attribute name="ROHM-MFG" value=""/>
+<attribute name="SAMSUNG-MFG" value=""/>
+<attribute name="SIZE" value="0805"/>
+<attribute name="STACKPOLE-MFG" value="RMCF0805JT330R"/>
+<attribute name="TOLERANCE" value="5%"/>
+<attribute name="VALUE" value="330"/>
+<attribute name="VISHAY-MFG" value=""/>
+<attribute name="WATTAGE" value="0.125W"/>
+<attribute name="YAGEO-MFG" value=""/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RESETTABLE-FUSE" prefix="F" uservalue="yes">
+<description>SMD 1206 Resettable Fuse</description>
+<gates>
+<gate name="G$1" symbol="PTC" x="-2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="PTC-1206">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="BELFUSE-MFG" value="0ZCJ0050FF2G"/>
+<attribute name="HOLD-CURRENT" value="500mA"/>
+<attribute name="JAYCON" value="RS-0040"/>
+<attribute name="MAX-CURRENT" value="100A"/>
+<attribute name="MAX-VOLTAGE" value="8V"/>
+<attribute name="SIZE" value="1206"/>
+<attribute name="TRIP-CURRENT" value="1A"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RES-PTH" prefix="R" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-10K-5%" package="AXIAL-0.4">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="JAYCON" value="RS-0002"/>
+<attribute name="PANASONIC-MFG" value=""/>
+<attribute name="ROHM-MFG" value=""/>
+<attribute name="SAMSUNG-MFG" value=""/>
+<attribute name="SIZE" value="Through-Hole"/>
+<attribute name="STACKPOLE-MFG" value="CF14JT10K0"/>
+<attribute name="TOLERANCE" value="5%"/>
+<attribute name="VALUE" value="10K"/>
+<attribute name="VISHAY-MFG" value=""/>
+<attribute name="WATTAGE" value="0.25W"/>
+</technology>
+</technologies>
+</device>
+<device name="-1K-5%" package="AXIAL-0.4">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="JAYCON" value="RS-0003"/>
+<attribute name="PANASONIC-MFG" value=""/>
+<attribute name="ROHM-MFG" value=""/>
+<attribute name="SAMSUNG-MFG" value=""/>
+<attribute name="SIZE" value="Through-Hole"/>
+<attribute name="TOLERANCE" value="5%"/>
+<attribute name="VALUE" value="1K"/>
+<attribute name="VISHAY-MFG" value=""/>
+<attribute name="WATTAGE" value="0.25W"/>
+<attribute name="YAGEO-MFG" value="CFR-25JB-52-1K"/>
+</technology>
+</technologies>
+</device>
+<device name="-220-5%" package="AXIAL-0.4">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="JAYCON" value="RS-0004"/>
+<attribute name="PANASONIC-MFG" value=""/>
+<attribute name="ROHM-MFG" value=""/>
+<attribute name="SAMSUNG-MFG" value=""/>
+<attribute name="SIZE" value="Through-Hole"/>
+<attribute name="TOLERANCE" value="5%"/>
+<attribute name="VALUE" value="220"/>
+<attribute name="VISHAY-MFG" value=""/>
+<attribute name="WATTAGE" value="0.25W"/>
+<attribute name="YAGEO-MFG" value="CFR-25JB-52-220R"/>
+</technology>
+</technologies>
+</device>
+<device name="-1M-5%" package="AXIAL-0.4">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="JAYCON" value="RS-0006"/>
+<attribute name="PANASONIC-MFG" value=""/>
+<attribute name="ROHM-MFG" value=""/>
+<attribute name="SAMSUNG-MFG" value=""/>
+<attribute name="SIZE" value="Through-Hole"/>
+<attribute name="TOLERANCE" value="5%"/>
+<attribute name="VALUE" value="1M"/>
+<attribute name="VISHAY-MFG" value=""/>
+<attribute name="WATTAGE" value="0.25W"/>
+<attribute name="YAGEO-MFG" value="CFR-25JB-52-1M "/>
+</technology>
+</technologies>
+</device>
+<device name="-4.7K-5%" package="AXIAL-0.4">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="JAYCON" value="RS-0007"/>
+<attribute name="PANASONIC-MFG" value=""/>
+<attribute name="ROHM-MFG" value=""/>
+<attribute name="SAMSUNG-MFG" value=""/>
+<attribute name="SIZE" value="Through-Hole"/>
+<attribute name="TOLERANCE" value="5%"/>
+<attribute name="VALUE" value="4.7K"/>
+<attribute name="VISHAY-MFG" value=""/>
+<attribute name="WATTAGE" value="0.25W"/>
+<attribute name="YAGEO-MFG" value="CFR-25JB-52-4K7"/>
+</technology>
+</technologies>
+</device>
+<device name="-100-5%" package="AXIAL-0.4">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="JAYCON" value="RS-0008"/>
+<attribute name="PANASONIC-MFG" value=""/>
+<attribute name="ROHM-MFG" value=""/>
+<attribute name="SAMSUNG-MFG" value=""/>
+<attribute name="SIZE" value="Through-Hole"/>
+<attribute name="TOLERANCE" value="5%"/>
+<attribute name="VALUE" value="100"/>
+<attribute name="VISHAY-MFG" value=""/>
+<attribute name="WATTAGE" value="0.25W"/>
+<attribute name="YAGEO-MFG" value="CFR-25JB-52-100R "/>
+</technology>
+</technologies>
+</device>
+<device name="-10-5%" package="AXIAL-0.4">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="JAYCON" value="RS-0009"/>
+<attribute name="PANASONIC-MFG" value=""/>
+<attribute name="ROHM-MFG" value=""/>
+<attribute name="SAMSUNG-MFG" value=""/>
+<attribute name="SIZE" value="Through-Hole"/>
+<attribute name="TOLERANCE" value="5%"/>
+<attribute name="VALUE" value="10"/>
+<attribute name="VISHAY-MFG" value=""/>
+<attribute name="WATTAGE" value="0.25W"/>
+<attribute name="YAGEO-MFG" value="CFR-25JB-52-10R "/>
+</technology>
+</technologies>
+</device>
+<device name="-100K-5%" package="AXIAL-0.4">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="JAYCON" value="RS-0010"/>
+<attribute name="PANASONIC-MFG" value=""/>
+<attribute name="ROHM-MFG" value=""/>
+<attribute name="SAMSUNG-MFG" value=""/>
+<attribute name="SIZE" value="Through-Hole"/>
+<attribute name="TOLERANCE" value="5%"/>
+<attribute name="VALUE" value="100K"/>
+<attribute name="VISHAY-MFG" value=""/>
+<attribute name="WATTAGE" value="0.25W"/>
+<attribute name="YAGEO-MFG" value="CFR-25JB-52-100K"/>
+</technology>
+</technologies>
+</device>
+<device name="-180-5%" package="AXIAL-0.4">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="JAYCON" value="RS-0011"/>
+<attribute name="PANASONIC-MFG" value=""/>
+<attribute name="ROHM-MFG" value=""/>
+<attribute name="SAMSUNG-MFG" value=""/>
+<attribute name="SIZE" value="Through-Hole"/>
+<attribute name="STACKPOLE-MFG" value="RNF14FTD180R"/>
+<attribute name="TOLERANCE" value="5%"/>
+<attribute name="VALUE" value="180"/>
+<attribute name="VISHAY-MFG" value=""/>
+<attribute name="WATTAGE" value="0.25W"/>
+</technology>
+</technologies>
+</device>
+<device name="-330-5%" package="AXIAL-0.4">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="JAYCON" value="RS-0061"/>
+<attribute name="PANASONIC-MFG" value=""/>
+<attribute name="ROHM-MFG" value=""/>
+<attribute name="SAMSUNG-MFG" value=""/>
+<attribute name="SIZE" value="Through-Hole"/>
+<attribute name="TOLERANCE" value="5%"/>
+<attribute name="VALUE" value="330"/>
+<attribute name="VISHAY-MFG" value=""/>
+<attribute name="WATTAGE" value="0.25W"/>
+<attribute name="YAGEO-MFG" value="CFR-25JR-52-330R"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RES-TRIMPOT" prefix="R" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="POT" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-THUMB-10K-10%" package="TRIM_POT">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="BOURNS-MFG" value="3386F-1-103TLF"/>
+<attribute name="JAYCON" value="HW-0057"/>
+<attribute name="ROHM-MFG" value=""/>
+<attribute name="SAMSUNG-MFG" value=""/>
+<attribute name="SIZE" value="Through-Hole"/>
+<attribute name="TOLERANCE" value="10%"/>
+<attribute name="VALUE" value="10K"/>
+<attribute name="VISHAY-MFG" value=""/>
+<attribute name="WATTAGE" value="0.25W"/>
+<attribute name="YAGEO-MFG" value=""/>
+</technology>
+</technologies>
+</device>
+<device name="-SCREW-10K-10%" package="TRIM_POT">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="JAYCON" value="HW-0107"/>
+<attribute name="PANASONIC-MFG" value=""/>
+<attribute name="ROHM-MFG" value=""/>
+<attribute name="SAMSUNG-MFG" value=""/>
+<attribute name="SIZE" value="Through-Hole"/>
+<attribute name="TOLERANCE" value="10%"/>
+<attribute name="VALUE" value="10K"/>
+<attribute name="VISHAY-MFG" value=""/>
+<attribute name="WATTAGE" value="0.25W"/>
+<attribute name="YAGEO-MFG" value=""/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RES-VARISTOR" prefix="Z" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="VARISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-0603" package="RES-0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="BOURNS-MFG" value="CG0603MLC-05E"/>
+<attribute name="JAYCON" value="RS-0067"/>
+<attribute name="ROHM-MFG" value=""/>
+<attribute name="SAMSUNG-MFG" value=""/>
+<attribute name="SIZE" value="0603"/>
+<attribute name="TOLERANCE" value=""/>
+<attribute name="VALUE" value="CG0603MLC-05E"/>
+<attribute name="VISHAY-MFG" value=""/>
+<attribute name="WATTAGE" value="0.1W"/>
+<attribute name="YAGEO-MFG" value=""/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>
